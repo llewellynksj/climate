@@ -6,12 +6,72 @@
     <h1>Centre for Climate Communication & Data Science</h1>
     <h2>Home</h2>
 
+    <!-- carousel -->
     <section>
-        <div class="hero-image"></div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://res.cloudinary.com/ddqyimddv/image/upload/v1690195583/pexels-flickr-148361_qrxzpv.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/ddqyimddv/image/upload/v1690195599/pexels-yogi-jap-11948959_gxb3wo.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
-    <section>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Combining state-of-the-art data science, AI, and social science methods to
+                        empower the environmental movement.</p>
+                    <p>The Centre for Climate Communication and Data Science (C3DS) is an interdisciplinary research centre
+                        commited to improving strategic communications to deliver meaningful action on climate change.</p>
+                    <p>View the Centre's key aims <a href="{% url 'about' %}">here</a></p>
+                </div>
+                <img src="https://res.cloudinary.com/ddqyimddv/image/upload/v1690195662/pexels-markus-spiske-2990612_b2hwkd.jpg"
+                    alt="" class="homepage-image col">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>C3DS brings together social scientists and data scientists with expertise in climate and environmental
+                        communication.</p>
+                    <p>The Center's 3 Co-Directors bring a variety of expertise from a range of disciplines; Political Science,
+                        Geography, and Computer Science</p>
+                    <p>Meet our Co-Directors <a href="{% url 'people' %}">here</a></p>
+                </div>  
+                <img src="https://res.cloudinary.com/ddqyimddv/image/upload/v1690195313/pexels-pavel-danilyuk-8761515_cqbslm.jpg"
+                    alt="" class="homepage-image col">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>C3DS works with a number of central organisations including NGO's, academic institutions and media
+                        organisations</p>
+                    <p>Find out more about our Partner engagement <a href="{% url 'partners' %}">here</a></p>
+                </div>  
+                <img src="https://res.cloudinary.com/ddqyimddv/image/upload/v1690195332/pexels-robin-erino-2975498_vhdhva.jpg"
+                    alt="" class="homepage-image col">
+            </div>
+        </div>
     </section>
 </div>
 

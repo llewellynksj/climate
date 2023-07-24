@@ -7,3 +7,11 @@ def home(request):
 
 def people(request):
     return render(request, 'people.html', {})
+
+
+def about(request):
+    return render(request, 'about.html', {})
+
+
+def partners(request):
+    return render(request, 'partners.html', {})
