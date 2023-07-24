@@ -9,14 +9,25 @@ body {
     margin: auto;
 }
 
-.homepage-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+a {
+    text-decoration: none;
+    color: #252525;
 }
 
-.homepage-image {
+h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.homepage-image, .homepage-text {
     max-height: 280px;
     max-width: 500px;
 }
