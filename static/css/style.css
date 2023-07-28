@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Montserrat:ital,wght@0,200;0,300;1,300&display=swap');
 
 body {
-    font-family: "Crimson Text", sans-serif;
+    font-family: Barlow , sans-serif;
+    color: black;
 }
 
 .body-content, .navbar {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 a {
@@ -15,12 +21,14 @@ a {
 }
 
 h1 {
-    font-family: "Julius Sans One", sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 
 p {
@@ -30,4 +38,15 @@ p {
 .homepage-image, .homepage-text {
     max-height: 280px;
     max-width: 500px;
+}
+
+.section-title {
+    background-color: #6dda12;
+    color: white;
+    padding: 2px 0 2px 5px;
+}
+
+.section-link:hover {
+    color: #0000EE;
+    font-size: 20px;
 }
