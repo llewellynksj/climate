@@ -36,12 +36,12 @@ p {
 }
 
 .homepage-image, .homepage-text {
-    max-height: 280px;
+    max-height: 580px;
     max-width: 500px;
 }
 
 .section-title {
-    background-color: #6dda12;
+    background-color: #63898A;
     color: white;
     padding: 2px 0 2px 5px;
 }
